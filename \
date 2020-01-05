@@ -1,0 +1,11 @@
+#!/bin/bash
+
+systemctl status httpd
+
+echo "HTTPD installing"
+
+yum install -y httpd
+
+echo "apache is downloaded"
+
+rpm -qa httpd >bawa
